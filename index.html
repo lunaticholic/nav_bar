@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Reactive Navigation Bar</title>
+    <script
+      src="https://kit.fontawesome.com/1f53cf09c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!-- nav: navigation: 문서의 부분 중 현재 페이지 내, 또는 다른 페이지로의 링크를 보여주는 구획을 나타낸다-->
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <i class="far fa-stop-circle"></i>
+        <a href="">AllThatChurchMedia</a>
+      </div>
+
+      <!-- ul: Unordered List: 순서가 없는 목록으로 번호대신 도형등이 앞에 붙는다-->
+      <ul class="navbar_menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Subtitles</a></li>
+        <li><a href="">Video</a></li>
+        <li><a href="">Audio</a></li>
+      </ul>
+
+      <ul class="navbar_icons">
+        <li><i class="fab fa-twitter-square"></i></li>
+        <li><i class="fab fa-facebook-square"></i></li>
+        <li><i class="fab fa-youtube"></i></li>
+        <li><i class="fab fa-instagram-square"></i></li>
+      </ul>
+
+      <a href="#" class="navbar_toogleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+  </body>
+</html>
